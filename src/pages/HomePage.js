@@ -1,11 +1,15 @@
 import { Container } from 'reactstrap';
-import Welcome from '../components/Welcome'
+import Welcome from '../components/Welcome';
+import HowTo from '../components/HowTo';
+import GetStarted from '../components/GetStarted';
 
 
 const HomePage = () => {
     return (
-        <Container>
+        <Container fluid='true'>
             <Welcome/>
+            <HowTo />
+            <GetStarted />
         </Container>
     );
 };

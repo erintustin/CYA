@@ -137,4 +137,14 @@ p {
   max-width: 200px;
 }
 
+#welcome, #getstarted
+ {
+    background-color: lightgray;
+    padding: 25px;
+}
+
+h1.congrats {
+  text-shadow: 2px 2px gray;
+}
+
 

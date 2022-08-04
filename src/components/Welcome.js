@@ -3,15 +3,15 @@ import cake from '../app/assets/img/cake.png';
 
 const Welcome = () => {
     return(
-        <Container>
+        <Container fluid='true' className='pl-5 pr-5' id='welcome' >
             <Row>
-                <Col>
+                <Col md='2' className='mx-auto order-last order-md-first'>
                 <img src={cake}
-                     className="img d-none d-sm-flex my-auto" 
-                     alt="an image of a rainbow birthday-cake shaped pop-it fidget tool"
+                     className="img my-auto" 
+                     alt="a rainbow birthday-cake shaped pop-it fidget tool"
                      />
                 </Col>
-                <Col>
+                <Col md='6' className='mx-auto'>
                     <h1 class="text-center congrats">Congratulations!</h1>
                     <p class="content">If you’re visiting this page maybe you were recently diagnosed as autistic, 
                                     or come to the realization on your own. You may have been told that someone 

@@ -8,9 +8,10 @@ import { Container, Row, Col, Button } from 'reactstrap';
 
 const Header = () => {
     return (
+        <>
         <Container className='jumbotron jumbotron-top jumbotron-fluid' fluid='true'>
             <Row>
-                <Col md='6' className='my-auto title text-center order-last order-md-first'>
+                <Col md='6' className='my-auto title text-center order-last order-md-first p-5 m-5'>
                         <h1>Congrats, You're Autistic!</h1>
                         <h3>a Neurodiversity-Affirming Online Tool Kit</h3>
                         <Button className='btn btn-sm btn-info'>Get Started</Button>
@@ -20,7 +21,9 @@ const Header = () => {
                 <img className='img img-fluid logo-header' src={CYAlogo} alt='logo'/>
                 </Col>
             </Row>
-            <Row>
+        </Container>
+        <Container>
+            <Row className='mb-0'>
                 <Col sm='4' className='header-card'>
                     <img src={headerIcon1} alt='headericon1'/>
                     <h6 className="text-center">
@@ -47,6 +50,7 @@ const Header = () => {
                 </Col>
             </Row>
         </Container>
+        </>
     
     );
 
