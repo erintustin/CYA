@@ -53,7 +53,7 @@ h1 {
 header h3 {
   color: gray;
   font-family: 'Catamaran', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
  
 }
 
@@ -115,6 +115,22 @@ p {
   width: 80%;
 }
 
+.navlogo {
+  height: 30px;
+  margin: 2px;
+}
+
 .header-card {
   background-color: white;
 }
+
+.btn {
+  margin: 5px;
+}
+
+.feedback {
+  background-color:#5a9cb3;
+  padding: 25px;
+}
+
+

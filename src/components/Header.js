@@ -2,17 +2,18 @@ import headerIcon1 from '../app/assets/img/headerIcon1.png';
 import headerIcon2 from '../app/assets/img/headerIcon2.png';
 import headerIcon3 from '../app/assets/img/headerIcon3.png';
 import CYAlogo from '../app/assets/img/CYAlogo.png';
-import { Container, Row, Col, Button, Card, CardGroup, Media } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 
 
 
 const Header = () => {
     return (
-        <Container className='jumbotron jumbotron-top jumbotron-fluid'>
+        <Container className='jumbotron jumbotron-top jumbotron-fluid' fluid='true'>
             <Row>
                 <Col md='6' className='my-auto title text-center order-last order-md-first'>
                         <h1>Congrats, You're Autistic!</h1>
                         <h3>a Neurodiversity-Affirming Online Tool Kit</h3>
+                        <Button className='btn btn-sm btn-info'>Get Started</Button>
                     
                 </Col>
                 <Col>
@@ -46,6 +47,7 @@ const Header = () => {
                 </Col>
             </Row>
         </Container>
+    
     );
 
 };
