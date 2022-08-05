@@ -21,8 +21,8 @@ export const selectResourceById = (id) => (state) => {
 
 };
 
-export const selectFeaturedResource = (state) => {
-    return state.resources.resourcesArray.find(
+export const selectFeaturedResources = (state) => {
+    return state.resources.resourcesArray.filter(
         (resource) => resource.featured
     );
 };
