@@ -7,6 +7,7 @@ import { Navbar,
         NavItem
         } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import UserLoginForm from '../features/user/userLoginForm';
 import NavLogo from '../app/assets/img/navlogo.png';
 import CYAlogo from '../app/assets/img/CYAlogo.png';
 
@@ -38,6 +39,7 @@ const Navigation = () => {
                     <NavLink className='nav-link' to='/contact'>Contact </NavLink>
                 </NavItem>
             </Nav>
+                <UserLoginForm />
             </Collapse>
         </Navbar>
 

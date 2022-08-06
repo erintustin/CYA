@@ -13,7 +13,7 @@ const Welcome = () => {
                 </Col>
                 <Col md='6' className='mx-auto'>
                     <h1 class="text-center congrats">Congratulations!</h1>
-                    <p class="content">If you’re visiting this page maybe you were recently diagnosed as autistic, 
+                    <p class="content mx-auto p-2">If you’re visiting this page maybe you were recently diagnosed as autistic, 
                                     or come to the realization on your own. You may have been told that someone 
                                     you know or care about is autistic. For any of the above, Congratulations! 
                                     You have been given a wonderful opportunity to better get to know yourself or 
@@ -25,7 +25,7 @@ const Welcome = () => {
                                     told by the true experts—autistic people. <br /> <br />
                                     
                                     Autistic people deserve to be loved and accepted just as they are. This toolkit is not
-                                    designed to fix Autistic people, but to fix the way people think about them. Welcome to the Autistic Community! 
+                                    designed to fix Autistic people, but to fix the way people think about us. Welcome to the Autistic Community! 
                     </p>
                 </Col>
             </Row>

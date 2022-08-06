@@ -44,6 +44,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.content {
+  font-family: "Catamaran", sans-serif;
+  font-size: 14px;
+}
+
 h1 {
   font-family: "Gochi Hand", cursive;
   text-shadow: 2px 2px lightgray;
@@ -139,7 +144,7 @@ p {
 
 #welcome, #getstarted
  {
-    background-color: lightgray;
+    background-color: rgb(243, 239, 239);
     padding: 25px;
 }
 
