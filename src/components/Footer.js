@@ -8,14 +8,14 @@ const Footer = () => {
             <Container fluid='true'>
                 <Row>
                     <Col md='8' className='mx-auto my-auto'>
-                        <Media left top className='row feedback'>
+                        <Media className='row feedback'>
                             <Media object 
-                                    className='img my-auto col-4'
+                                    className='img my-auto mx-auto col-md-4'
                                     id='feedback-logo' 
                                     src={feedbacklogo} 
                                     alt='a colorful brain with a thought bubble coming out of it'/>
                             
-                            <Media body className='col-8'>
+                            <Media body className=' my-auto mx-auto col-md-8'>
                                 <h4>Support This Project With Feedback</h4>
                                 <p>Feedback from the autistic community is vital to keeping this toolkit true to its purpose
                                 of compiling the best resources to help newly diagnosed and self-diagnosed Autistic 
@@ -29,7 +29,7 @@ const Footer = () => {
                             </Media>
                         </Media>
                     </Col>
-                    <Col md='4' className='mx-auto my-auto'>
+                    <Col className='mx-auto my-auto order-first order-md-last'>
                         <h3>
                             Build Your Own Toolkit
                         </h3>

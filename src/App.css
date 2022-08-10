@@ -70,7 +70,7 @@ h6 {
 }
 
 h4 {
-  color: #8ebbcb;
+  color: whitesmoke;
   font-family: 'Catamaran', sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -83,6 +83,13 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+}
+
+h5 {
+  color: gray;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 10px;
+
 }
 
 p {
@@ -103,10 +110,6 @@ p {
   padding: 30px;
   background-color: white;
   background-image: url('./app/assets/img/confettiBg.png');
-}
-
-.navbar {
-  background-color: #5a9cb3;
 }
 
 .title {
@@ -134,7 +137,7 @@ p {
 }
 
 .feedback {
-  background-color:#5a9cb3;
+  background-color:#1ab4d2;
   padding: 25px;
 }
 
@@ -152,4 +155,7 @@ h1.congrats {
   text-shadow: 2px 2px gray;
 }
 
+content {
+  text-align: left;
+}
 

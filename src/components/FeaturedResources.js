@@ -1,4 +1,4 @@
-import { Col, Row } from 'reactstrap';
+import { Col, Row} from 'reactstrap';
 import { useSelector } from 'react-redux';
 import { selectFeaturedResources } from '../features/Resources/ResourcesSlice';
 import ResourceCard from '../features/Resources/ResourceCard';
@@ -11,7 +11,7 @@ const FeaturedResources = () => {
             {resources.map((resource) => {
                 return(
                     <Col 
-                        sm='3' 
+                        md='4' 
                         className='mx-auto mb-5' 
                         key={resource.id}>
                         <ResourceCard resource={resource} />
