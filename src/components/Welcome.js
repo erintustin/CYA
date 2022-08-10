@@ -14,7 +14,7 @@ const Welcome = () => {
                 <Col md='6' className='mx-auto'>
                     <h1 className="text-center congrats">Congratulations!</h1>
                     <p className="content mx-auto p-2">If you’re visiting this page maybe you were recently diagnosed as autistic, 
-                                    or come to the realization on your own. You may have been told that someone 
+                                    or have come to the realization on your own. You may have been told that someone 
                                     you know or care about is autistic. For any of the above, Congratulations! 
                                     You have been given a wonderful opportunity to better get to know yourself or 
                                     someone you love. <br /><br />

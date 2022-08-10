@@ -7,7 +7,7 @@ import GetStarted from '../components/GetStarted';
 const HomePage = () => {
     return (
         <Container fluid='true'>
-            <Welcome/>
+            <Welcome id='welcome'/>
             <HowTo />
             <GetStarted />
         </Container>

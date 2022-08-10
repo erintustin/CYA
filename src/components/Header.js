@@ -14,7 +14,7 @@ const Header = () => {
                 <Col md='6' className='my-auto title text-center order-last order-md-first p-5 mx-auto'>
                         <h1>Congrats, You're Autistic!</h1>
                         <h3>a Neurodiversity-Affirming Online Tool Kit</h3>
-                        <Button className='btn btn-sm btn-info'>Get Started</Button>
+                        <Button href='#welcome' className='btn btn-sm btn-info'>Get Started</Button>
                     
                 </Col>
                 <Col>
