@@ -5,8 +5,7 @@ import ResourcesList from '../features/Resources/ResourcesList';
 
 const ToolkitPage = () => {
     return (
-        <Container>
-           
+        <Container fluid='true'>
             <ResourcesList />
         </Container>
     );

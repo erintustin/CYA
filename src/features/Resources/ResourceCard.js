@@ -39,7 +39,7 @@ const ResourceCard = ({resource}) => {
                     <ButtonGroup className='mx-auto'>
                         <Button outline color='secondary'
                                 href={url} target='new_window'
-                                size='sm'>Read</Button>
+                                size='sm'>View</Button>
                         <Button 
                                 outline color='secondary'
                                 size='sm'

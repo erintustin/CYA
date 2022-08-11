@@ -10,12 +10,14 @@ const ResourcesList = () => {
     console.log('resources:', resources);
 
     return (
-        <Row className='ms-auto'>
+        <Row fluid='true' className='mx-auto'>
             {resources.map((resource) => {
                 return(
                     <Col 
-                        md='5' 
-                        className='m-4' 
+                        sm='6'
+                        lg='4'
+                        id='resourceslist'
+                        className='mt-2 mb-2' 
                         key={resource.id}>
                         <ResourceCard resource={resource} />
                     </Col>

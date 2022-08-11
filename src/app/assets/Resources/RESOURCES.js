@@ -4,6 +4,7 @@ import img003 from '../img/cards/003.jpeg';
 import img004 from '../img/cards/004.png';
 import img005 from '../img/cards/005.png';
 import img006 from '../img/cards/006.jpeg';
+import img007 from '../img/cards/007.png';
 
 export const RESOURCES = [
     {
@@ -24,7 +25,7 @@ export const RESOURCES = [
         source: 'franklludwig.com',
         url: 'https://franklludwig.com/autismletter.html',
         img: img002,
-        featured: true,
+        featured: false,
         tagged: ''
     },
 
@@ -71,6 +72,18 @@ export const RESOURCES = [
         source: "In the Loop About Neurodiversity",
         url: 'https://intheloopaboutneurodiversity.wordpress.com/2019/03/20/the-ableist-history-of-the-puzzle-piece-symbol-for-autism/',
         img: img006,
+        featured: true,
+        tagged: ''
+
+    },
+
+    {
+        id: 6,
+        name: 'The Neuro Bears',
+        author: 'PANDAS',
+        source: "pandasonline.org",
+        url: 'https://www.youtube.com/watch?v=_490q6LaHIY',
+        img: img007,
         featured: true,
         tagged: ''
 

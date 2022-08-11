@@ -6,7 +6,7 @@ const GetStarted = () => {
         <Container fluid='true' id='getstarted'>
             <h1 class="text-center congrats mb-5">Let's Get Started! </h1>
             <FeaturedResources />
-        <Button>View All</Button>
+        <Button href='/toolkit/#resourceslist'>View All</Button>
         </Container>
     );
 };
