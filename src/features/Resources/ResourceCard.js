@@ -8,7 +8,7 @@ import NoteForm from '../notes/NoteForm';
 const ResourceCard = ({resource}) => {
     const [shareOpen, setShareOpen] = useState(false);
     const [notesOpen, setNotesOpen] = useState(false);
-    const { name, img, author, source, url} = resource;
+    const { name, img, author, source, url, type} = resource;
 
     return (
         
@@ -22,7 +22,7 @@ const ResourceCard = ({resource}) => {
                                 src={img}
                                 alt={name}
                         /> 
-                        <p> By: {author}<br />
+                        <p> {type} by: {author}<br />
                                 Source: 
                                 <a href={url} target='new_window'> {source}</a>
                                 </p>
