@@ -11,7 +11,8 @@ const FeaturedResources = () => {
             {resources.map((resource) => {
                 return(
                     <Col 
-                        md='4' 
+                        md='6'
+                        lg='4' 
                         className='mx-auto mb-5' 
                         key={resource.id}>
                         <ResourceCard resource={resource} />

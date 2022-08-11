@@ -1,34 +1,33 @@
 import { Card, CardImg, CardHeader, CardFooter, CardTitle, CardSubtitle, 
-         Collapse, ButtonGroup, Button, Modal, ModalHeader, ModalBody,
-         Form} from 'reactstrap';
+         Collapse, ButtonGroup, Button, CardBody } from 'reactstrap';
 import { useState } from 'react';
 import ShareResource from './ShareResource';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
 import NotesList from '../notes/NotesList';
 import NoteForm from '../notes/NoteForm';
 
 const ResourceCard = ({resource}) => {
     const [shareOpen, setShareOpen] = useState(false);
     const [notesOpen, setNotesOpen] = useState(false);
-    const [CopyLinkOpen, setCopyLinkOpen] = useState(false);
-    const { name, img, author, source, url, id } = resource;
+    const { name, img, author, source, url} = resource;
 
     return (
         
-            
-            <Card>
-            <CardHeader>
-            <CardTitle><h3>{name}</h3></CardTitle>
-            <CardSubtitle>
-                <h6>By: {author}</h6>
-                <h5>Source: <a href={url} target='new_window'>{source}</a></h5>
-                </CardSubtitle>
+            <Card className='m-2'>
+                <CardHeader>
+                        <CardTitle><h2>{name}</h2></CardTitle>
                 </CardHeader>
-                <CardImg 
-                                width='100%'
+                <CardBody className='p-0'>
+                        <CardImg 
+                                className='m-0'
                                 src={img}
                                 alt={name}
-                /> 
+                        /> 
+                        <p> By: {author}<br />
+                                Source: 
+                                <a href={url} target='new_window'> {source}</a>
+                                </p>
+                </CardBody>
+                
                 <Collapse isOpen={shareOpen}>
                         <ShareResource resource={resource} />
                 </Collapse>
@@ -60,6 +59,7 @@ const ResourceCard = ({resource}) => {
                     </ButtonGroup>
                 </CardFooter>
             </Card>
+            
         
     
     );
