@@ -12,6 +12,29 @@ import img011 from '../img/cards/011.jpeg';
 import img012 from '../img/cards/012.webp';
 import img013 from '../img/cards/013.png';
 import img014 from '../img/cards/014.png';
+import img015 from '../img/cards/015.jpeg';
+import img016 from '../img/cards/016.png';
+import img017 from '../img/cards/017.jpeg';
+import img018 from '../img/cards/018.webp';
+import img019 from '../img/cards/019.png';
+import img020 from '../img/cards/020.webp';
+import img021 from '../img/cards/021.png';
+import img022 from '../img/cards/022.png';
+import img023 from '../img/cards/023.png';
+import img024 from '../img/cards/024.jpeg';
+import img025 from '../img/cards/025.png';
+import img026 from '../img/cards/026.webp';
+import img027 from '../img/cards/027.png';
+import img028 from '../img/cards/028.jpeg';
+import img029 from '../img/cards/029.webp';
+import img030 from '../img/cards/030.png';
+import img031 from '../img/cards/031.webp';
+import img032 from '../img/cards/032.png';
+import img033 from '../img/cards/033.png';
+
+
+
+
 
 export const RESOURCES = [
     {
@@ -40,7 +63,7 @@ export const RESOURCES = [
 
     {
         id: 2,
-        name: 'Call Me Autistic: A Soft Correction',
+        name: 'Call Me Autistic: A Soft Correction for Those Still Using Person-First Language',
         author: 'Becca Lory Hector',
         source: 'Autism Spectrum News',
         url: 'https://www.autismspectrumnews.org/call-me-autistic-a-soft-correction-for-those-still-using-person-first-language/',
@@ -71,7 +94,7 @@ export const RESOURCES = [
         source: "Spectroomz",
         url: 'https://www.spectroomz.com/blog/how-to-tell-your-child-about-their-autism-diagnosis',
         img: img005,
-        featured: true,
+        featured: false,
         type: 'Written',
         tagged: ''
 
@@ -84,7 +107,7 @@ export const RESOURCES = [
         source: "In the Loop About Neurodiversity",
         url: 'https://intheloopaboutneurodiversity.wordpress.com/2019/03/20/the-ableist-history-of-the-puzzle-piece-symbol-for-autism/',
         img: img006,
-        featured: true,
+        featured: false,
         type: 'Written',
         tagged: ''
 
@@ -97,6 +120,19 @@ export const RESOURCES = [
         source: "pandasonline.org",
         url: 'https://www.youtube.com/watch?v=_490q6LaHIY',
         img: img007,
+        featured: false,
+        type: 'Video',
+        tagged: ''
+
+    },
+
+    {
+        id: 32,
+        name: 'An introduction to the double empathy problem',
+        author: 'Kieran Rose and Josh Knowles Animation',
+        source: "The Autistic Advocate",
+        url: 'https://www.youtube.com/watch?v=qpXwYD9bGyU',
+        img: img033,
         featured: true,
         type: 'Video',
         tagged: ''
@@ -194,5 +230,235 @@ export const RESOURCES = [
 
     },
 
+    {
+        id: 14,
+        name: 'Monotropism: The Most Accurate Autism Theory You’ve Probably Never Heard Of',
+        author: 'James Ward-Sinclair',
+        source: 'Autistic & Unapologetic',
+        url: 'https://autisticandunapologetic.com/2020/07/26/monotropism-the-most-accurate-autism-theory-youve-probably-never-heard-of/',
+        img: img015,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+
+    },
+
+    {
+        id: 15,
+        name: 'Why Its Hard To Switch Tasks',
+        author: 'Erin Human',
+        source: 'The Art of Autism',
+        url: 'https://the-art-of-autism.com/why-its-hard-to-switch-tasks-a-comic-strip-explanation/?fbclid=IwAR3vmcL4KMoiY8L8SLArlWRoFagMRmqgS_iyk63cTmDdEOFvi167Ooyvoaw',
+        img: img016,
+        featured: false,
+        type: 'Illustration',
+        tagged: ''
+
+    },
+
+    {
+        id: 16,
+        name: '5 Messages for My Younger Autistic Self',
+        author: 'Erin Bulluss, Ph.D., and Abby Sesterka',
+        source: 'Psychology Today',
+        url: 'https://www.psychologytoday.com/au/blog/insights-about-autism/202003/5-messages-my-younger-autistic-self?fbclid=IwAR214QfP5p2QKrYUY_F1Zr174otS4GX2SGy8Md1RtceAIV6sDuBOVlOY5oA',
+        img: img017,
+        featured: true,
+        type: 'Written',
+        tagged: ''
+
+    },
+
+    {
+        id: 17,
+        name: '“Baby Pink Is My Home”: How an Autistic Person Creates a Safe Space with Color',
+        author: 'Marianne Eloise',
+        source: 'Apartment Therapy',
+        url: 'https://www.apartmenttherapy.com/baby-pink-safe-space-36955978?fbclid=IwAR3mr94woj_7kH9_NbiFkOEID_RL7M4ax2bhrLwHhzuhlcyy84hCfMkwRTA',
+        img: img018,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+
+    },
+
+    {
+        id: 18,
+        name: 'Understanding How Routines Can Help Autistic People',
+        author: 'Fergus Murray',
+        source: "Thinking Person's Guide to Autism",
+        url: 'https://thinkingautismguide.com/2022/04/understanding-how-routines-can-help-autistic-people.html',
+        img: img019,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+
+    },
+
+    {
+        id: 19,
+        name: 'Neurotypicals: Listen to Our Words, Not Our Tone',
+        author: 'Ira Kraemer',
+        source: "Autistic Science Person",
+        url: 'https://autisticscienceperson.com/2021/01/09/neurotypicals-listen-to-our-words-not-our-tone/?fbclid=IwAR0py-18Tb654sg49Fg_akr9OIAXiLOeki8HtD_jwj908Xb4c1aV4w_Z0-A',
+        img: img020,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+
+    },
+
+    {
+        id: 20,
+        name: "It's Never Just a Sandwich",
+        author: 'Emma Dalmayne',
+        source: "Thinking Person's Guide to Autism",
+        url: 'https://thinkingautismguide.com/2021/05/its-never-just-sandwich-meltdowns.html',
+        img: img021,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+
+    },
+
+    {
+        id: 21,
+        name: "The Hamburger Effect",
+        author: 'Summer Farrelly',
+        source: "The A List",
+        url: 'https://www.facebook.com/watch/?v=891559684869883',
+        img: img022,
+        featured: false,
+        type: 'Video',
+        tagged: ''
+
+    },
+
+    {
+        id: 22,
+        name: "Masking My Autism: What does it look like?",
+        author: 'Paige Hennekam',
+        source: "Paige Layle Autism & Stuff",
+        url: 'https://www.youtube.com/watch?v=hu031z6CXWo',
+        img: img023,
+        featured: false,
+        type: 'Video',
+        tagged: ''
+
+    },
+
+    {
+        id: 23,
+        name: "The Costs of Camouflaging Autism",
+        author: 'Francine Russo',
+        source: "Spectrum News",
+        url: 'https://www.spectrumnews.org/features/deep-dive/costs-camouflaging-autism/',
+        img: img024,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+
+    },
+
+    {
+        id: 24,
+        name: "Fighting Ableism (& How To Be A Good Ally)",
+        author: 'Ella Tabb',
+        source: "Purple Ella",
+        url: 'https://www.youtube.com/watch?v=7MN6lmVq3E4',
+        img: img025,
+        featured: false,
+        type: 'Video',
+        tagged: ''
+
+    },
+
+    {
+        id: 25,
+        name: "Humanizing the DSM Diagnosis for Autism",
+        author: 'myk',
+        source: "Neuroclastic",
+        url: 'https://neuroclastic.com/humanizing-the-dsm-diagnosis-for-autism/',
+        img: img026,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+
+    },
+
+    {
+        id: 26,
+        name: "Some of the reasons that I find AAC very useful",
+        author: 'Martin Moxness',
+        source: "A Different Spectrum",
+        url: 'https://www.instagram.com/reel/CbQpwu2Amtu/?utm_source=ig_web_copy_link',
+        img: img027,
+        featured: false,
+        type: 'Video',
+        tagged: ''
+
+    },
+
+    {
+        id: 29,
+        name: "'Can My Child Ever Learn to Speak?'",
+        author: 'Ann Memmott',
+        source: "Thinking Person's Guide to Autism",
+        url: 'https://thinkingautismguide.com/2019/01/can-my-child-ever-learn-to-speak-communication.html',
+        img: img030,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+    },
+
+    {
+        id: 30,
+        name: "All About AAC: A Guide to Augmentative and Alternative Communication Options!",
+        author: 'Ann Courtney Johnson',
+        source: "Just Keep Stimming",
+        url: 'https://justkeepstimming.com/2019/12/27/all-about-aac/',
+        img: img031,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+    },
+
+    {
+        id: 31,
+        name: "LISTEN: A short film made by and with nonspeaking autistic people",
+        author: 'CommunicationFIRST',
+        source: "communicationfirst.org",
+        url: 'https://youtu.be/H7dca7U7GI8',
+        img: img032,
+        featured: false,
+        type: 'Video',
+        tagged: ''
+    },
+
+    {
+        id: 27,
+        name: "‘Autistic while black’: How autism amplifies stereotypes",
+        author: 'Catina Burkett',
+        source: 'Spectrum News',
+        url: 'https://www.spectrumnews.org/opinion/viewpoint/autistic-while-black-how-autism-amplifies-stereotypes/',
+        img: img028,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+    },
+
+    {
+        id: 28,
+        name: "For Black women and girls who aren’t 'autistic enough'",
+        author: 'Jo (Foderingham) Brown',
+        source: 'Black Youth Project',
+        url: 'http://blackyouthproject.com/for-black-women-and-girls-who-arent-autistic-enough/',
+        img: img029,
+        featured: false,
+        type: 'Written',
+        tagged: ''
+    },
+
+   
 
 ];

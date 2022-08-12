@@ -26,3 +26,8 @@ export const selectFeaturedResources = (state) => {
         (resource) => resource.featured
     );
 };
+
+export const selectResourcesByType = (type) => (state) => {
+    return state.resources.resourcesArray.filter((resource) => resource.type === type);
+
+};
