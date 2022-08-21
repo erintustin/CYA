@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { Col, Row } from 'reactstrap';
+import { Container, Col, Row } from 'reactstrap';
 import ResourceCard from "./ResourceCard";
 import { selectAllResources, selectResourcesByType } from './ResourcesSlice';
 
@@ -11,12 +11,11 @@ const ResourcesList = () => {
     console.log('resources:', resources);
 
     return (
-        <Row fluid='true' className='mx-auto'>
+        <Container fluid='true'>
+        <Row>
             {resources.map((resource) => {
                 return(
                     <Col 
-                        sm='6'
-                        lg='4'
                         className='mt-2 mb-2' 
                         key={resource.id}>
                         <ResourceCard resource={resource} />
@@ -24,6 +23,7 @@ const ResourcesList = () => {
                 );
             })}
         </Row>
+        </Container>
         )
 }
 

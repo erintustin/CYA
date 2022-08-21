@@ -12,9 +12,9 @@ const ResourceCard = ({resource}) => {
 
     return (
         
-            <Card className='m-2'>
+            <Card className='m-2 mx-auto'>
                 <CardHeader>
-                        <CardTitle><h2>{name}</h2></CardTitle>
+                        <CardTitle><h4>{name}</h4></CardTitle>
                 </CardHeader>
                 <CardBody className='p-0'>
                         <CardImg 

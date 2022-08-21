@@ -5,14 +5,14 @@ const Welcome = () => {
     return(
         <Container fluid='true' className='pl-5 pr-5' id='welcome' >
             <Row>
-                <Col md='2' className='mx-auto order-last order-md-first'>
-                <img src={cake}
-                     className="img my-auto" 
-                     alt="a rainbow birthday-cake shaped pop-it fidget tool"
-                     />
+                <Col md='2' className='mx-auto my-auto order-last order-md-first'>
+                <a href='https://www.amazon.com/Birthday-Bracelet-Popping-Sensory-Colorful/dp/B09GJ81PK1/ref=sr_1_3?crid=2KYTHD20U04G5&keywords=rainbow%2Bbirthday%2Bcake%2Bfidget&qid=1661039144&s=toys-and-games&sprefix=rainbow%2Bbirthday%2Bcake%2Bfidget%2Ctoys-and-games%2C72&sr=1-3&th=1' target='new_window'>
+                    <img src={cake}
+                     alt="a rainbow birthday-cake-shaped pop-it fidget tool"
+                     /></a>
                 </Col>
                 <Col md='6' className='mx-auto'>
-                    <h1 className="text-center congrats">Congratulations!</h1>
+                    <h3 className="text-center congrats">Congratulations!</h3>
                     <p className="content mx-auto p-2">If you’re visiting this page maybe you were recently diagnosed as autistic, 
                                     or have come to the realization on your own. You may have been told that someone 
                                     you know or care about is autistic. For any of the above, Congratulations! 
@@ -25,7 +25,8 @@ const Welcome = () => {
                                     told by the true experts—autistic people. <br /> <br />
                                     
                                     Autistic people deserve to be loved and accepted just as they are. This toolkit is not
-                                    designed to fix Autistic people, but to fix the way people think about us. Welcome to the Autistic Community! 
+                                    designed to fix Autistic people, but to fix the way people think about us. <br /> <br />
+                                    <strong>Welcome to the Autistic Community! </strong>
                     </p>
                 </Col>
             </Row>

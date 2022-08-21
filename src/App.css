@@ -70,11 +70,14 @@ h6 {
 }
 
 h4 {
-  color: whitesmoke;
   font-family: 'Catamaran', sans-serif;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+}
+
+h3#feedback-heading {
+  color: whitesmoke;
 }
 
 h2 {
@@ -145,7 +148,7 @@ p {
   max-width: 200px;
 }
 
-#welcome, #getstarted, #bytype
+#welcome, #howto
  {
     background-color: rgb(243, 239, 239);
     padding: 25px;
@@ -160,11 +163,12 @@ content {
 }
 
 .card-header {
-  height: 160px;
+  height: 100px;
 }
 
 .card {
-  min-height: 250px;
+  min-height: 150px;
+  max-width: 300px;
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);    
   border: none;
@@ -172,8 +176,8 @@ content {
 }
 
 .card-img {
-  min-height: 250px;
-  max-height: 250px;
+  min-height:  150px;
+  max-height:  150px;
 }
 
 #filterNav {
@@ -181,3 +185,4 @@ content {
   top: 75px;
   width: 100%
 }
+

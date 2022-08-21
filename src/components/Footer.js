@@ -16,7 +16,7 @@ const Footer = () => {
                                     alt='a colorful brain with a thought bubble coming out of it'/>
                             
                             <Media body className=' my-auto mx-auto col-md-8'>
-                                <h4>Support This Project With Feedback</h4>
+                                <h3 id='feedback-heading'>Support This Project With Feedback</h3>
                                 <p>Feedback from the autistic community is vital to keeping this toolkit true to its purpose
                                 of compiling the best resources to help newly diagnosed and self-diagnosed Autistic 
                                 people and their loved ones have a neurodiversity-affirming introduction to the Autistic 

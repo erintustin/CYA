@@ -3,11 +3,12 @@ import FeaturedResources from './FeaturedResources';
 
 const GetStarted = () => {
     return(
-        <Container fluid='true' id='getstarted'>
-            <h1 class="text-center congrats mb-5">Let's Get Started! </h1>
+        <Container fluid='true' className='pl-5 pr-5 pt-5 pb-2'>
+            <h3 class="text-center mb-5">Top Resources</h3>
             <FeaturedResources />
-        <Button href='/toolkit/#resourceslist'>View All</Button>
+        <Button href='/toolkit/'>View All</Button>
         </Container>
+        
     );
 };
 

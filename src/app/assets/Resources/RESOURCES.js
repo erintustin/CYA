@@ -147,7 +147,7 @@ export const RESOURCES = [
         url: 'https://m.facebook.com/111732458177011/posts/pfbid035JBo9gXQZ3ogTNzdZVqx8KV25YpAd7iXBvn7yL5vCsrzBx7sdsztCifGmkLq3BSEl/?d=n',
         img: img008,
         featured: false,
-        type: 'Infographic',
+        type: 'Graphic',
         tagged: ''
 
     },
@@ -251,7 +251,7 @@ export const RESOURCES = [
         url: 'https://the-art-of-autism.com/why-its-hard-to-switch-tasks-a-comic-strip-explanation/?fbclid=IwAR3vmcL4KMoiY8L8SLArlWRoFagMRmqgS_iyk63cTmDdEOFvi167Ooyvoaw',
         img: img016,
         featured: false,
-        type: 'Illustration',
+        type: 'Graphic',
         tagged: ''
 
     },
