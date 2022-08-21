@@ -1,26 +1,15 @@
-import { Col, Row} from 'reactstrap';
-import { useSelector } from 'react-redux';
-import { selectFeaturedResources } from '../features/Resources/ResourcesSlice';
-import ResourceCard from '../features/Resources/ResourceCard';
+import { Container, Button } from 'reactstrap';
+import FeaturedResourcesList from './FeaturedResourcesList';
 
 const FeaturedResources = () => {
-    const resources = useSelector(selectFeaturedResources);
-    console.log('resources:', resources);
-    return (
-        <Row className='ms-auto'>
-            {resources.map((resource) => {
-                return(
-                    <Col 
-                        sm='6'
-                        lg='4' 
-                        className='mx-auto mb-5' 
-                        key={resource.id}>
-                        <ResourceCard resource={resource} />
-                    </Col>
-                );
-            })}
-        </Row>
-        )
+    return(
+        <Container fluid='true' className='pl-5 pr-5 pt-5 pb-2'>
+            <h3 class="text-center mb-5">Top Resources</h3>
+            <FeaturedResourcesList />
+        <Button href='/toolkit/'>View All</Button>
+        </Container>
+        
+    );
 };
 
 export default FeaturedResources;

@@ -1,7 +1,7 @@
 import { Container, Row, Col, Button } from 'reactstrap';
 import squishmallow from '../app/assets/img/squishmallow.png';
 
-const HowTo = () => {
+const GettingStarted = () => {
     return(
         <Container fluid='true' className='pl-5 pr-5' id='howto'>
             <Row>
@@ -42,4 +42,4 @@ const HowTo = () => {
 };
 
 
-export default HowTo;
+export default GettingStarted;

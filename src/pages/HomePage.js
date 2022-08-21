@@ -1,9 +1,9 @@
 import { Container, Row, Col } from 'reactstrap';
 import Header from '../components/Header';
 import Welcome from '../components/Welcome';
-import HowTo from '../components/HowTo';
+import GettingStarted from '../components/GettingStarted';
 import About from '../components/About';
-import GetStarted from '../components/GetStarted';
+import FeaturedResources from '../components/FeaturedResources';
 
 
 const HomePage = () => {
@@ -12,8 +12,8 @@ const HomePage = () => {
             <Header />
             <Welcome />
             <About />
-            <HowTo />
-            <GetStarted />
+            <GettingStarted />
+            <FeaturedResources />
         </Container>
     );
 };
