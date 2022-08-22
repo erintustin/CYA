@@ -3,7 +3,7 @@ import squishmallow from '../app/assets/img/squishmallow.png';
 
 const GettingStarted = () => {
     return(
-        <Container fluid='true' className='pl-5 pr-5' id='howto'>
+        <Container fluid='true' className='pl-5 pr-5' id='gettingstarted'>
             <Row>
                 <Col md='2' className='mx-auto my-auto order-last order-md-first'>
                 <a href='https://www.amazon.com/Squishmallows-Official-Kellytoy-Squishy-Animals/dp/B09RHM739Q/ref=pd_lpo_1?pd_rd_i=B09RHM739Q&psc=1' target='new_window'>

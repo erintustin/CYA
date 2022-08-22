@@ -4,11 +4,14 @@ import { useState } from 'react';
 import ShareResource from './ShareResource';
 import NotesList from '../notes/NotesList';
 import NoteForm from '../notes/NoteForm';
+import MarkAsRead from '../../components/MarkAsRead';
+
 
 const ResourceCard = ({resource}) => {
     const [shareOpen, setShareOpen] = useState(false);
     const [notesOpen, setNotesOpen] = useState(false);
     const { name, img, author, source, url, type} = resource;
+    const [markAsRead, setMarkAsRead] = useState(false);
 
     return (
         
@@ -37,31 +40,32 @@ const ResourceCard = ({resource}) => {
                 </Collapse>
                 <CardFooter>
                     <ButtonGroup className='mx-auto'>
-                        <Button outline color='secondary'
+                        <Button color='secondary'
                                 href={url} target='new_window'
                                 size='sm'>View</Button>
                         <Button 
-                                outline color='secondary'
+                                color='secondary'
                                 size='sm'
                                 onClick={() => setShareOpen(!shareOpen)}>
                                 Share</Button>
                         <Button
-                                outline color='secondary'
+                                color='secondary'
                                 size='sm'>
                                 +</Button>
 
                         <Button
-                                outline color='secondary'
+                                color='secondary'
                                 size='sm'
                                 onClick={() => setNotesOpen(!notesOpen)}>
                                 Notes</Button>
 
                     </ButtonGroup>
+                    <MarkAsRead />
+                    
+
+                                
                 </CardFooter>
             </Card>
-            
-        
-    
     );
 }
 

@@ -49,7 +49,7 @@ const NoteForm = ({resource}) => {
                                 />
                                 <ErrorMessage name='noteText'>{(msg) => <p className='text-danger'>{msg}</p>}</ErrorMessage>
                                 </FormGroup>
-                                <Button type='submit' color='primary'>
+                                <Button type='submit'>
                                 Add Note
                                 </Button>
                             </Form>
