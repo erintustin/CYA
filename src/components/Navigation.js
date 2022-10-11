@@ -30,13 +30,7 @@ const Navigation = () => {
                     <NavLink className='nav-link' to='/toolkit'>Toolkit </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className='nav-link' to='/about'>About </NavLink>
-                </NavItem>
-                <NavItem>
-                     <NavLink className='nav-link' to='/sources'>Sources</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink className='nav-link' to='/contact'>Contact </NavLink>
+                    <NavLink className='nav-link' to='#feedbackModal'>Feedback </NavLink>
                 </NavItem>
             </Nav>
                 <UserLoginForm />

@@ -7,15 +7,14 @@ import { selectAllResources, selectResourcesByType } from './ResourcesSlice';
 
 const ResourcesList = () => {
     const resources = useSelector(selectAllResources);
-    
-    console.log('resources:', resources);
 
     return (
-        <Container fluid='true'>
+        <Container  className='p-5'>
         <Row>
             {resources.map((resource) => {
                 return(
-                    <Col 
+                    <Col md='4'
+                        sm ='6'
                         className='mt-2 mb-2' 
                         key={resource.id}>
                         <ResourceCard resource={resource} />

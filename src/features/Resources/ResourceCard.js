@@ -11,7 +11,6 @@ const ResourceCard = ({resource}) => {
     const [shareOpen, setShareOpen] = useState(false);
     const [notesOpen, setNotesOpen] = useState(false);
     const { name, img, author, source, url, type} = resource;
-    const [markAsRead, setMarkAsRead] = useState(false);
 
     return (
         
@@ -50,17 +49,13 @@ const ResourceCard = ({resource}) => {
                                 Share</Button>
                         <Button
                                 color='secondary'
-                                size='sm'>
-                                +</Button>
-
-                        <Button
-                                color='secondary'
                                 size='sm'
                                 onClick={() => setNotesOpen(!notesOpen)}>
                                 Notes</Button>
+                        <MarkAsRead />
 
                     </ButtonGroup>
-                    <MarkAsRead />
+                    
                     
 
                                 

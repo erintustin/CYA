@@ -33,7 +33,7 @@ const Footer = () => {
                         <h3>
                             Build Your Own Toolkit
                         </h3>
-                        <p className='mx-auto p-2'>Create a custom toolkit to share with your support system using our curated resources and even adding your own favorites from the web.</p>
+                        <p className='mx-auto p-2'>Create a custom toolkit to share with your support system using our curated resources and adding your own favorites from the web.</p>
                         <div class="text-center">
                             <button className="btn btn-dark btn-small" data-toggle="modal" 
                             data-target="#feedbackModal">Start Now</button>
