@@ -133,7 +133,7 @@ export const RESOURCES = [
         source: "The Autistic Advocate",
         url: 'https://www.youtube.com/watch?v=qpXwYD9bGyU',
         img: img033,
-        featured: true,
+        featured: false,
         type: 'Video',
         tagged: ''
 
@@ -172,7 +172,7 @@ export const RESOURCES = [
         source: "Aucademy",
         url: 'https://aucademy.co.uk/2022/01/20/six-common-reactions-during-autistic-discovery/',
         img: img010,
-        featured: true,
+        featured: false,
         type: 'Written',
         tagged: ''
 
@@ -263,7 +263,7 @@ export const RESOURCES = [
         source: 'Psychology Today',
         url: 'https://www.psychologytoday.com/au/blog/insights-about-autism/202003/5-messages-my-younger-autistic-self?fbclid=IwAR214QfP5p2QKrYUY_F1Zr174otS4GX2SGy8Md1RtceAIV6sDuBOVlOY5oA',
         img: img017,
-        featured: true,
+        featured: false,
         type: 'Written',
         tagged: ''
 

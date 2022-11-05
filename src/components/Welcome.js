@@ -62,7 +62,7 @@ const Welcome = () => {
     });
 
     return(
-        <Container fluid='true' className='pl-5 pr-5 pt-2 pb-2' id='welcome' >
+        <Container fluid='true' className='pl-5 pr-5 pt-2 pb-0' id='welcome' >
             <Row>
                 <Col md='2' className='mx-auto my-auto order-last order-md-first'>
                     <img src={cake}

@@ -20,8 +20,8 @@ const About = () => {
             community are building blocks to living a fulfilling autistic life. This 
             toolkit is designed to easily share information and resources
             with those you are closest to. The goal is to spread accurate information
-            about the Autistic experience that can help build strong, informed, 
-            neurodiversity-affirming support systems around Autistic people and their loved ones.`
+            about the Autistic experience that can help build strong, informed, and 
+            neurodiveristy-affirming support systems around Autistic people and their loved ones.`
         }
     ];
 
@@ -59,7 +59,7 @@ const About = () => {
     });
 
     return(
-        <Container fluid='true' className='pl-5 pr-5 pt-2 pb-2' id='about'>
+        <Container fluid='true' className='pl-5 pr-5 pt-2 pb-5' id='about'>
         <Row>
             <Col md='2' className='mx-auto my-auto order-last'>
                 <img src={squishmallow}

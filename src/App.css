@@ -197,3 +197,11 @@ content {
   margin: -75px;
   margin-bottom: -15px;
 }
+
+.featured{
+  background-image: url('./app/assets/img/confettiBg.png');
+}
+
+.featured-heading{
+  background-color: white;
+}

@@ -3,7 +3,7 @@ import ResourcesList from '../features/Resources/ResourcesList';
 
 const ToolkitPage = () => {
     return (
-        <Container fluid='true'>
+        <Container fluid='true' className='featured'>
             <ResourcesList />
         </Container>
     );
