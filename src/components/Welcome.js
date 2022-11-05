@@ -62,7 +62,7 @@ const Welcome = () => {
     });
 
     return(
-        <Container fluid='true' className='pl-5 pr-5' id='welcome' >
+        <Container fluid='true' className='pl-5 pr-5 pt-2 pb-2' id='welcome' >
             <Row>
                 <Col md='2' className='mx-auto my-auto order-last order-md-first'>
                     <img src={cake}
@@ -73,38 +73,38 @@ const Welcome = () => {
                 <Col md='6' className='mx-auto'>
                     <h3 className="text-center congrats">Welcome to the Autistic Community!</h3>
                     <Container className='carousel-container'>
-        <Carousel
-            activeIndex={activeIndex}
-            next={next}
-            previous={previous}
-            slide={String(true)}
-            keyboard={String(true)}
-            enableTouch={String(true)}
-            pause='hover'
-            interval='10000'
-            className='mx-auto'
-            dark
-        >
-            <CarouselIndicators
-            items={messages}
-            activeIndex={activeIndex}
-            onClickHandler={goToIndex}
-            />
-            {slides}
-            <CarouselControl
-            direction="prev"
-            directionText="Previous"
-            onClickHandler={previous}
-            className='carousel-control'
-            />
-            <CarouselControl
-            direction="next"
-            directionText="Next"
-            onClickHandler={next}
-            className='carousel-control'
-            />
-      </Carousel>
-      </Container>
+                        <Carousel
+                            activeIndex={activeIndex}
+                            next={next}
+                            previous={previous}
+                            slide={String(true)}
+                            keyboard={String(true)}
+                            enableTouch={String(true)}
+                            pause='hover'
+                            interval='10000'
+                            className='mx-auto'
+                            dark
+                        >
+                            <CarouselIndicators
+                            items={messages}
+                            activeIndex={activeIndex}
+                            onClickHandler={goToIndex}
+                            />
+                            {slides}
+                            <CarouselControl
+                            direction="prev"
+                            directionText="Previous"
+                            onClickHandler={previous}
+                            className='carousel-control'
+                            />
+                            <CarouselControl
+                            direction="next"
+                            directionText="Next"
+                            onClickHandler={next}
+                            className='carousel-control'
+                            />
+                        </Carousel>
+                    </Container>
                 </Col>
             </Row>
         </Container>
