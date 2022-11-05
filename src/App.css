@@ -177,3 +177,9 @@ content {
   max-width: 200px;
   border: solid;
 }
+
+.copylink-header{
+  background-color: #1ab4d2;
+  color: black;
+  font-family: "Gochi Hand", cursive;
+}

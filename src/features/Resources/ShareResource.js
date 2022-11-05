@@ -1,4 +1,4 @@
-import { Button, Modal, ModalBody, ModalHeader, Form } from 'reactstrap';
+import { Button, Modal, ModalBody, ModalHeader, Form, Alert } from 'reactstrap';
 import { useState } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
@@ -7,6 +7,7 @@ const ShareResource = ({resource}) => {
     console.log('resource:', resource);
     const [CopyLinkOpen, setCopyLinkOpen] = useState(false);
     const {url, id} = resource;
+   
     return(
         <>
         <Button
@@ -42,8 +43,10 @@ const ShareResource = ({resource}) => {
         </CopyToClipboard>
 
         <Modal isOpen={CopyLinkOpen}>
-                <ModalHeader toggle={() => setCopyLinkOpen(false)}>
-                        <h5>Copy to Clipboard</h5>
+                <ModalHeader 
+                    className='copylink-header'
+                    toggle={() => setCopyLinkOpen(false)}>
+                        <div className='login-header p-0'>Copy to Clipboard</div>
                 </ModalHeader>
                 <ModalBody>
                         <Form>
@@ -52,9 +55,10 @@ const ShareResource = ({resource}) => {
                                         id={id} 
                                         value={url}
                                 />
-                                <CopyToClipboard text={url}>
+                                <CopyToClipboard text={url}
+                                                onCopy={()=>alert('Link Copied!')}>
                                         <Button className="btn-dark btn-sm mx-auto" 
-                                                onclick={() => this.setState({copied: true})}
+                                                onclick={() => this.setState({copied: true})}            
                                                 >
                                         Click to Copy
                                         </Button>

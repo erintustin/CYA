@@ -11,7 +11,7 @@ const ToolkitPage = () => {
             </Row>
             <Row>
                 <Col className='featured-heading p-5 mx-auto' xs='8' md='6'>
-                    <h1>When this feature becomes available, your favorites will appear here.</h1>
+                    <h1>When this feature becomes available, favorites will appear here.</h1>
                 </Col>
             </Row>
         </Container>

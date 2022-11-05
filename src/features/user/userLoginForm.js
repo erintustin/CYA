@@ -11,7 +11,7 @@ import {
 } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { validateUserLoginForm } from '../../utils/validateUserLoginForm';
-import defaultAvatar from '../../app/assets/img/CYAlogo-small.png';
+import defaultAvatar from '../../app/assets/img/autistic-again.png';
 
 const UserLoginForm = () => {
     const [loginModalOpen, setLoginModalOpen] = useState(false);
