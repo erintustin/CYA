@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'reactstrap';
+import { Container} from 'reactstrap';
 import Header from '../components/Header';
 import Welcome from '../components/Welcome';
 import GettingStarted from '../components/GettingStarted';

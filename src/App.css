@@ -190,7 +190,6 @@ content {
   margin-right: 0;
 }
 
-.markread {
-  color: white;
-  
+.favorite-heart {
+  color: red;
 }

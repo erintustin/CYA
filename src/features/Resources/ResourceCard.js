@@ -1,10 +1,10 @@
-import { Card, CardImg, CardHeader, CardFooter, CardTitle, CardSubtitle, 
+import { Card, CardImg, CardHeader, CardFooter, CardTitle, 
          Collapse, ButtonGroup, Button, CardBody } from 'reactstrap';
 import { useState } from 'react';
 import ShareResource from './ShareResource';
 import NotesList from '../notes/NotesList';
 import NoteForm from '../notes/NoteForm';
-import MarkAsRead from '../../components/MarkAsRead';
+import MarkFavorite from '../../components/MarkFavorite';
 
 
 const ResourceCard = ({resource}) => {
@@ -52,7 +52,7 @@ const ResourceCard = ({resource}) => {
                                 size='sm'
                                 onClick={() => setNotesOpen(!notesOpen)}>
                                 Notes</Button>
-                        <MarkAsRead />
+                        <MarkFavorite />
 
                     </ButtonGroup>
                     

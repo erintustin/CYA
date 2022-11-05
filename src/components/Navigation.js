@@ -29,9 +29,6 @@ const Navigation = () => {
                 <NavItem>
                     <NavLink className='nav-link' to='/toolkit'>Toolkit </NavLink>
                 </NavItem>
-                <NavItem>
-                    <NavLink className='nav-link' to='#feedbackModal'>Feedback </NavLink>
-                </NavItem>
             </Nav>
                 <UserLoginForm />
             </Collapse>
