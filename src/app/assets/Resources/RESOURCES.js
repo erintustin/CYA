@@ -266,7 +266,6 @@ export const RESOURCES = [
         featured: false,
         type: 'Written',
         tagged: ''
-
     },
 
     {

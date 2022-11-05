@@ -23,7 +23,7 @@ const Welcome = () => {
         },
         {
             id: 3,
-            text: `Autistic people deserve to be loved and accepted just as they are. This toolkit is not
+            text: `Autistic people deserve to be loved and accepted just as we are. This toolkit is not
             designed to fix Autistic people, but to fix the way people think about us.`
         }
     ];
