@@ -1,7 +1,6 @@
 import { Container} from 'reactstrap';
 import Header from '../components/Header';
 import Welcome from '../components/Welcome';
-import GettingStarted from '../components/GettingStarted';
 import About from '../components/About';
 import FeaturedResources from '../components/FeaturedResources';
 
@@ -12,7 +11,6 @@ const HomePage = () => {
             <Header />
             <Welcome />
             <About />
-            <GettingStarted />
             <FeaturedResources />
         </Container>
     );

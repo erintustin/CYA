@@ -1,21 +1,19 @@
 import { Container, Row, Col } from 'reactstrap';
-import autisticagain from '../app/assets/img/autistic-again.png';
+import squishmallow from '../app/assets/img/squishmallow.png';
 
 const About = () => {
     return(
         <Container fluid='true' className='pl-5 pr-5 pt-2 pb-2' id='about'>
         <Row>
             <Col md='2' className='mx-auto my-auto order-last'>
-            <a href='https://www.ndrenegade.com/products/woke-up-t-shirt-2' target='new_window'>
-                <img src={autisticagain}
+                <img src={squishmallow}
                  className="img" 
-                 alt="a black t-shirt with the text 'Woke Up Autistic Again Today'"
-                 /></a>
+                 alt="a Squishmallow Axolotl Plush with Balloon"
+                 />
             </Col>
             <Col md='6' className='mx-auto my-auto'>
-            <h3 className="text-center howto">About This Tool Kit</h3>
+            <h3 className="text-center howto">About This ToolKit</h3>
                 <p className="content">
-                    You or your loved one was autistic before diagnosis, and will be autistic every day after.
                     This toolkit seeks to clear up common misconceptions many people have about autism as a condition and to help you begin to truly
                     understand and appreciate the autistic neurotype. Rather than inspire fear, dread, or grief, these autistic-authored resources will provide 
                     knowledge to help you learn to navigate the world as or to support someone in the world as an autistic person. 

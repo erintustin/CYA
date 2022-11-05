@@ -55,11 +55,9 @@ h1 {
   font-size: 50px;
 }
 
-header h3 {
-  color: gray;
-  font-family: 'Catamaran', sans-serif;
-  font-size: 18px;
- 
+h3 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 30px;
 }
 
 h6 {
@@ -154,10 +152,6 @@ p {
     padding: 25px;
 }
 
-h1.congrats {
-  text-shadow: 2px 2px gray;
-}
-
 content {
   text-align: left;
 }
@@ -186,10 +180,20 @@ content {
   width: 100%
 }
 
-.markasreadleft {
-  margin-right: 0;
+.favorite-heart {
+  color: pink;
 }
 
-.favorite-heart {
-  color: red;
+.img{
+  max-height: 200px;
+}
+
+.messages{
+  min-height: 200px;
+  padding: 10px;
+}
+
+.carousel-control{
+  margin: -75px;
+  margin-bottom: -15px;
 }

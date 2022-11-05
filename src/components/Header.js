@@ -18,7 +18,7 @@ const Header = () => {
                     
                 </Col>
                 <Col>
-                <img className='img img-fluid logo-header' src={CYAlogo} alt='logo'/>
+                <img className='img-fluid logo-header' src={CYAlogo} alt='logo'/>
                 </Col>
             </Row>
         </Container>
