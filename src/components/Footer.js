@@ -1,4 +1,4 @@
-import { Container, Row, Col, Media } from 'reactstrap';
+import { Container, Row, Col, Button, Media } from 'reactstrap';
 import feedbacklogo from '../app/assets/img/feedbacklogo.png';
 
 
@@ -23,8 +23,7 @@ const Footer = () => {
                                 neurotype. 
                                 </p>
                                 <div class="text-center">
-                                    <button className="btn btn-light btn-small" data-toggle="modal" 
-                                    data-target="#feedbackModal">Submit Feedback</button>
+                                    <Button href='/feedback/' className="btn btn-light btn-small">Submit Feedback</Button>
                                 </div>
                             </Media>
                         </Media>
@@ -35,8 +34,8 @@ const Footer = () => {
                         </h3>
                         <p className='mx-auto p-2'>Create a custom toolkit to share with your support system using our curated resources and adding your own favorites from the web.</p>
                         <div class="text-center">
-                            <button className="btn btn-dark btn-small" data-toggle="modal" 
-                            data-target="#feedbackModal">Start Now</button>
+                            <Button className="btn btn-dark btn-small" data-toggle="modal" 
+                            data-target="#comingSoonModal">Get the App</Button>
                         </div>
                     </Col>
                     

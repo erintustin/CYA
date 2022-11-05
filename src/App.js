@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import ToolkitPage from './pages/ToolkitPage';
+import FavoritesPage from './pages/FavoritesPage';
+import FeedbackPage from './pages/FeedbackPage';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/toolkit' element={<ToolkitPage />} />
+        <Route path='/Favorites' element={<FavoritesPage />} />
+        <Route path='/Feedback' element={<FeedbackPage />} />
       </Routes>
       <Footer />
     </div>

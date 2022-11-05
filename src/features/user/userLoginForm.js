@@ -54,8 +54,10 @@ const UserLoginForm = () => {
 
 
             <Modal isOpen={loginModalOpen}>
-                <ModalHeader toggle={() => setLoginModalOpen(false)}>
-                    Login
+                <ModalHeader 
+                className='login-header'
+                toggle={() => setLoginModalOpen(false)}>
+                    <div className='login-header p-0'>Login</div>
                 </ModalHeader>
                 <ModalBody>
                     <Formik 
@@ -85,7 +87,10 @@ const UserLoginForm = () => {
                                     className='form-control' />
                                 <ErrorMessage name='password'>{(msg) => <p className='text-danger'>{msg}</p>}</ErrorMessage>
                             </FormGroup>
-                            <Button type='submit' color='primary'>Login</Button>
+                            <Button type='submit' 
+                                    className='btn btn-sm' 
+                                    color='info'>
+                            Login</Button>
                         </Form>
                     </Formik>
                 </ModalBody>

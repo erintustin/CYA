@@ -59,7 +59,7 @@ const About = () => {
     });
 
     return(
-        <Container fluid='true' className='pl-5 pr-5 pt-2 pb-5' id='about'>
+        <Container fluid='true' className='pl-5 pr-5 pt-4 pb-5' id='about'>
         <Row>
             <Col md='2' className='mx-auto my-auto order-last'>
                 <img src={squishmallow}
