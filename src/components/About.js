@@ -102,10 +102,10 @@ const About = () => {
                             />
                         </Carousel>
                     </Container>
-            </Col>
-        </Row>
-    </Container>
-);
+                </Col>
+            </Row>
+        </Container>
+    );
 };
 
 

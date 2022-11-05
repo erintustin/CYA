@@ -24,10 +24,20 @@ const Navigation = () => {
             <Collapse isOpen={menuOpen} navbar>
             <Nav className='ms-auto' navbar>
                 <NavItem>
-                    <NavLink className='nav-link' to='/'>Home </NavLink>
+                    <NavLink className='nav-link' to='/'>
+                        <i className='fa fa-home'></i>Home </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className='nav-link' to='/toolkit'>Toolkit </NavLink>
+                    <NavLink className='nav-link' to='/toolkit'>
+                    <i className='fa fa-briefcase'></i> Toolkit </NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink className='nav-link' to='/favorites'>
+                    <i className='fa fa-heart'></i> Favorites</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink className='nav-link' to='/feedback'>
+                    <i className='fa fa-envelope'></i> Feedback</NavLink>
                 </NavItem>
             </Nav>
                 <UserLoginForm />

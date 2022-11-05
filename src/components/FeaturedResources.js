@@ -7,8 +7,7 @@ const FeaturedResources = () => {
             <h3 class="text-center mb-5 featured-heading">Get started with these Featured Resources</h3>
             <FeaturedResourcesList />
         <Button className='pb-10' href='/toolkit/'>View All Resources</Button>
-        </Container>
-        
+        </Container> 
     );
 };
 

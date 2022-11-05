@@ -20,7 +20,7 @@ const FeaturedResourcesList = () => {
                 );
             })}
         </Row>
-        )
+    )
 };
 
 export default FeaturedResourcesList;
