@@ -70,7 +70,7 @@ const Welcome = () => {
                      className='img'
                      />
                 </Col>
-                <Col md='6' className='mx-auto'>
+                <Col xs='9' md='6' className='mx-auto'>
                     <h3 className="text-center congrats">Welcome to the Autistic Community!</h3>
                     <Container className='carousel-container'>
                         <Carousel

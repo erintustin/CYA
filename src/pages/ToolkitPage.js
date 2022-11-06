@@ -5,7 +5,7 @@ const ToolkitPage = () => {
     return (
         <Container fluid='true' className='confetti'>
             <Row>
-                <Col xs='2' className='mx-auto mt-5'>
+                <Col xs='6' className='mx-auto mt-5'>
             <Button className='btn btn-lg' href='/favorites'>View Favorites</Button>
             </Col>
             </Row>

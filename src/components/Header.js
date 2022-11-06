@@ -28,7 +28,7 @@ const Header = () => {
                     <img src={headerIcon1} alt='headericon1'/>
                     <h6>Ending Myths and Stereotypes</h6>
                      <p className='mx-auto'>
-                         Autism has been misrepresented by the medical community,
+                         Autism is often misrepresented by the medical community,
                          in the media, and by charitable organizations.</p>
                 </Col>
                 <Col sm='4' className='header-card'>

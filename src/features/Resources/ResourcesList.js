@@ -1,9 +1,7 @@
 import { useSelector } from 'react-redux';
 import { Container, Col, Row } from 'reactstrap';
 import ResourceCard from "./ResourceCard";
-import { selectAllResources, selectResourcesByType } from './ResourcesSlice';
-
-
+import { selectAllResources } from './ResourcesSlice';
 
 const ResourcesList = () => {
     const resources = useSelector(selectAllResources);

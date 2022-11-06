@@ -67,7 +67,7 @@ const About = () => {
                  alt="a Squishmallow Axolotl Plush with Balloon"
                  />
             </Col>
-            <Col md='6' className='mx-auto my-auto'>
+            <Col xs='9' md='6' className='mx-auto my-auto'>
                 <h3 className="text-center">About This ToolKit</h3>
                 <Container className='carousel-container'>
                         <Carousel
@@ -86,6 +86,7 @@ const About = () => {
                             items={messages}
                             activeIndex={activeIndex}
                             onClickHandler={goToIndex}
+                            className='carousel-indicators'
                             />
                             {slides}
                             <CarouselControl
