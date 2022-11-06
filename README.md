@@ -1,46 +1,33 @@
-# Getting Started with Create React App and Redux
+# Congrats, You're Autistic! A Neurodiversity-Affirming Online Toolkit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project was developed with the goal of offering an alternative to the PDF toolkit currently offered by most medical providers following an autism diagnosis. With an understanding that Autistic adults are the foremost experts on what it means to have Autism, this project seeks to compile the best autistic-authored resources on the web and offer them in an easy-to-share format. 
 
-## Available Scripts
+This project promotes viewing Autism through the lens of Neurodiversity and the social model of disability, which sees disability as a natural part of human diversity. 
 
-In the project directory, you can run:
+Live Demo: https://congratsyoureautistic.web.app/
 
-### `npm start`
+## Technologies and Features
+This project was developed with JavaScript/JSX using React and relies heavily on the Reactstrap Card component. Each resource in the toolkit is contained on a card that houses the available features. These features are:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+View Resource - opens the resource at its original source in a new window
+Share - provides links to share via messaging, email, facebook, or copying link
+Notes - allows logged in users to add notes to a resource
+Favorite - allows logged in users to add resource to a list of favorites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Back-End/Server-Side
+Currently the project is utilizing Redux for state management which limits the user, notes, and share features. I'm currently working on integrating with an Express Server utilizing NodeJS and MongoDB to complete the functionality of the project. The server respository can be found here: https://github.com/erintustin/CYAServer
 
-### `npm test`
+## Future Goals
+A mobile app that allows users to build their own toolkit by added their own favorite resources from the web is currently in development. The repository can be found here: https://github.com/erintustin/CYA-React-Native
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I would like to expand this project to encompass other aspects of the Neurodivergent Spectrum ie ADHD, OCD, PTSD,  Tourette's, etc. with the overall goal of demystifying diagnosis and making it a more positive experience of understanding oneself and receiving the support one needs. 
 
-### `npm run build`
+## How to Contribute
+I'm looking for assistance, especially from the Neurodivergent community, in selecting resources, testing accessiblity and design/user experience, as well as help developing the back-end to make this a fully-functioning web app. I have several medical providers interested in referring patients to this toolkit once completed. Please contact me at erintustin@gmail.com if you are interested in becoming a part of this project. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
