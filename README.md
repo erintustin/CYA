@@ -1,6 +1,6 @@
 # Congrats, You're Autistic! A Neurodiversity-Affirming Online Toolkit
 
-This project was developed with the goal of offering an alternative to the PDF toolkit currently offered by most medical providers following an autism diagnosis. With an understanding that Autistic adults are the foremost experts on what it means to have Autism, this project seeks to compile the best autistic-authored resources on the web and offer them in an easy-to-share format.
+This project was developed with the goal of providing an alternative to the PDF toolkit currently offered by most medical providers following an autism diagnosis. With an understanding that Autistic adults are the foremost experts on what it means to have Autism, this project seeks to compile the best autistic-authored resources on the web and offer them in an easy-to-share format.
 
 This project promotes viewing Autism through the lens of Neurodiversity and the social model of disability, which sees disability as a natural part of human diversity. 
 
