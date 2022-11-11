@@ -9,12 +9,14 @@ import ToolkitPage from './pages/ToolkitPage';
 import FavoritesPage from './pages/FavoritesPage';
 import FeedbackPage from './pages/FeedbackPage';
 import { fetchResources } from './features/Resources/ResourcesSlice';
+import { fetchNotes } from './features/notes/notesSlice';
 
 function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchResources());
+    dispatch(fetchNotes());
 }, [dispatch]);
 
   return (
