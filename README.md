@@ -15,7 +15,7 @@ Notes - allows logged in users to add notes to a resource <br />
 Favorite - allows logged in users to add resource to a list of favorites. 
 
 ## Back-End/Server-Side
-Currently the project is utilizing Redux for state management which limits the user, notes, and share features. I'm currently working on integrating with an Express Server utilizing NodeJS and MongoDB to complete the functionality of the project. The server respository can be found here: https://github.com/erintustin/CYAServer
+Currently the project is utilizing Redux for state management and asynchronous data pulled from a local json server. I'm currently working on integrating with an Express Server utilizing NodeJS and MongoDB to complete the functionality of the project. The server respository can be found here: https://github.com/erintustin/CYAServer
 
 ## Future Goals
 A mobile app that allows users to build their own toolkit by added their own favorite resources from the web is currently in development. The repository can be found here: https://github.com/erintustin/CYA-React-Native  
