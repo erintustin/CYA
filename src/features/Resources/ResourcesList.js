@@ -2,9 +2,30 @@ import { useSelector } from 'react-redux';
 import { Container, Col, Row } from 'reactstrap';
 import ResourceCard from "./ResourceCard";
 import { selectAllResources } from './ResourcesSlice';
+import Error from '../../components/Error';
+import Loading from '../../components/Loading';
 
 const ResourcesList = () => {
     const resources = useSelector(selectAllResources);
+
+    const isLoading = useSelector((state) => state.resources.isLoading);
+    const errMsg = useSelector((state) => state.resources.errMsg);
+
+    if (isLoading) {
+        return (
+            <Row>
+                <Loading />
+            </Row>
+        );
+    }
+
+    if (errMsg) {
+        return (
+            <Row>
+                <Error errMsg={errMsg} />
+            </Row>
+        );
+    };
 
     return (
         <Container  className='p-5'>
