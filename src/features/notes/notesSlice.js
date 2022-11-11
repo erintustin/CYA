@@ -1,8 +1,39 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { NOTES } from '../../app/assets/Resources/NOTES';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { baseUrl } from '../../app/shared/baseUrl';
+//import { NOTES } from '../../app/assets/Resources/NOTES';
+
+export const fetchNotes = createAsyncThunk(
+    'notes/fetchNotes',
+    async () => {
+        const response = await fetch(baseUrl + 'notes');
+        if (!response.ok) {
+            return Promise.reject('Unable to fetch, status: ' + response.status);
+        }
+        const data = await response.json();
+        return data;
+    }
+);
+
+export const postNote = createAsyncThunk(
+    'notes/postNote',
+    async (note, {dispatch}) => {
+        const response = await fetch(baseUrl + 'notes', 
+            { 'method': 'POST',
+              'body': JSON.stringify(note),
+              'headers': { 'Content-Type': 'application/json' }
+            });
+        if (!response.ok) {
+            return Promise.reject(response.status);
+        }
+        const data = await response.json();
+        dispatch(addNote(data));
+    }
+);
 
 const initialState = {
-    notesArray: NOTES
+    notesArray: [],
+    isLoading: true,
+    errMsg: ''
 };
 
 const notesSlice = createSlice({
@@ -18,7 +49,30 @@ const notesSlice = createSlice({
             };
             state.notesArray.push(newNote);
         }
-    }
+    },
+    extraReducers: {
+        [fetchNotes.pending]: (state) => {
+                state.isLoading = true;
+            },
+        [fetchNotes.fulfilled]: (state, action) => {
+                state.isLoading = false;
+                state.errMsg = '';
+                state.notesArray = action.payload;
+            },
+        [fetchNotes.rejected]: (state, action) => {
+                state.isLoading = false;
+                state.errMsg = action.error ? action.error.message : 'Fetch failed';
+            },
+
+        [postNote.pending]: (state) => {
+                state.isLoading = true;
+            },
+        
+        [postNote.rejected]: (state, action) => {
+                state.isLoading = false;
+                state.errMsg = action.error ? action.error.message : 'Note failed';
+            }
+        }
 });
 
 export const notesReducer = notesSlice.reducer;
