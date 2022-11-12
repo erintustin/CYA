@@ -52,7 +52,7 @@ const ResourceCard = ({resource}) => {
                                 size='sm'
                                 onClick={() => setNotesOpen(!notesOpen)}>
                                 Notes</Button>
-                        <MarkFavorite />
+                        <MarkFavorite resource={resource} />
 
                     </ButtonGroup>
                     

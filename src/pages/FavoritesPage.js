@@ -1,21 +1,19 @@
 import { Container, Row, Col, Button } from 'reactstrap';
-import ResourcesList from '../features/Resources/ResourcesList';
+import FavoritesList from '../features/favorites/FavoritesList';
 
-const ToolkitPage = () => {
+const FavoritesPage = () => {
     return (
         <Container fluid='true' className='confetti'>
             <Row>
-                <Col xs='4' className='mx-auto mt-5'>
-                    <Button className='btn btn-lg' href='/toolkit'>View All Resources</Button>
-                </Col>
+                <Col xs='6' className='mx-auto mt-5'>
+            <Button className='btn btn-lg' href='/toolkit'>View All Resources</Button>
+            </Col>
             </Row>
             <Row>
-                <Col className='featured-heading p-5 mx-auto' xs='8' md='6'>
-                    <h1>When this feature becomes available, favorites will appear here.</h1>
-                </Col>
+            <FavoritesList />
             </Row>
         </Container>
     );
 };
 
-export default ToolkitPage;
+export default FavoritesPage;
