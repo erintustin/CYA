@@ -48,6 +48,10 @@ const notesSlice = createSlice({
                 ...action.payload
             };
             state.notesArray.push(newNote);
+        },
+        deleteNote: (state, payload) => {
+            const noteId = payload.id;
+            state.notesArray.splice(noteId, 1);
         }
     },
     extraReducers: {
@@ -77,7 +81,7 @@ const notesSlice = createSlice({
 
 export const notesReducer = notesSlice.reducer;
 
-export const { addNote } = notesSlice.actions;
+export const { addNote, deleteNote } = notesSlice.actions;
 
 export const selectNotesByResource = (resource) => (state) => {
     return state.notes.notesArray.filter(
