@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { baseUrl } from '../../app/shared/baseUrl';
 //import { NOTES } from '../../app/assets/Resources/NOTES';
 
+
 export const fetchNotes = createAsyncThunk(
     'notes/fetchNotes',
     async () => {

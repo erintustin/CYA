@@ -12,7 +12,7 @@ const NoteForm = ({resource}) => {
 
     const handleSubmit = (values) => {
         const note = {
-            resource: resource.id,
+            resource: resource._id,
             text: values.noteText,
             date: new Date(Date.now()).toISOString()
         };

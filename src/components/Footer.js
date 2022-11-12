@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Media } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import Feedback from './Feedback';
 
 
