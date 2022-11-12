@@ -1,7 +1,7 @@
 import { formatDate } from '../../utils/formatDate';
 import { deleteNote } from './notesSlice';
 import { useDispatch } from 'react-redux';
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 const Note = ({ note }) => {
     const { text: noteText, date } = note;

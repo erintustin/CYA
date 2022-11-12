@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import FavoritesList from '../features/favorites/FavoritesList';
 
 const FavoritesPage = () => {
-    return (
+     return (
         <Container fluid='true' className='confetti'>
             <Row>
                 <Col xs='6' className='mx-auto mt-5'>
@@ -14,6 +14,8 @@ const FavoritesPage = () => {
             </Row>
         </Container>
     );
+
+    
 };
 
 export default FavoritesPage;
