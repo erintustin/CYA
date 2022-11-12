@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from 'reactstrap';
 import { useDispatch } from 'react-redux';
-import { markFavorite } from '../features/favorites/favoritesSlice';
+import { markFavorite, unMarkFavorite } from '../features/favorites/favoritesSlice';
 
 const  MarkFavorite = ({resource}) => {
     const [favorite, setFavorite] = useState(false);
@@ -20,13 +20,18 @@ const  MarkFavorite = ({resource}) => {
         dispatch(markFavorite(favorite));
     };
 
+    const removeFromFavorites = (favorite) => {
+        setFavorite(false);
+        dispatch(unMarkFavorite(favorite));
+    };
+
     if (favorite === true) {
         return (
            
                 <Button 
                     className='btn btn-secondary'
                     size='sm'
-                    onClick={() => setFavorite(false)}
+                    onClick={() => removeFromFavorites()}
                     >
                     <i className='fa fa-heart favorite-heart' aria-hidden='true' />
                 </Button>

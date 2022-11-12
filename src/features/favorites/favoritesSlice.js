@@ -48,6 +48,11 @@ const favoritesSlice = createSlice({
                 ...action.payload
             };
             state.favoritesArray.push(addFavorite);
+        },
+        unMarkFavorite: (state, payload) => {
+            const favoriteId = payload.id;
+            state.favoritesArray.splice(favoriteId, 1);
+            console.log('unMarkFavorite state.favoritesArray:', state.favoritesArray);
         }
     },
     extraReducers: {
@@ -77,7 +82,7 @@ const favoritesSlice = createSlice({
 
 export const favoritesReducer = favoritesSlice.reducer;
 
-export const { markFavorite } = favoritesSlice.actions;
+export const { markFavorite, unMarkFavorite } = favoritesSlice.actions;
 
 export const selectFavorites = (state) => {
     return state.favorites.favoritesArray;
