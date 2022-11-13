@@ -5,10 +5,11 @@ import { validateNoteForm } from '../../utils/validateNoteForm';
 import { useDispatch } from 'react-redux';
 import { addNote } from './notesSlice';
 
+
 const NoteForm = ({resource}) => {
     const [modalOpen, setModalOpen] = useState(false);
-
     const dispatch = useDispatch();
+
 
     const handleSubmit = (values) => {
         const note = {

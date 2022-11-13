@@ -86,6 +86,6 @@ export const { addNote, deleteNote } = notesSlice.actions;
 
 export const selectNotesByResource = (resource) => (state) => {
     return state.notes.notesArray.filter(
-        (note) => note.resource === parseInt(resource.id)
+        (note) => note.resource === resource._id
     );
 };
