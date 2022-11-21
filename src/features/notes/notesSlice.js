@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { baseUrl } from '../../app/shared/baseUrl';
 //import { NOTES } from '../../app/assets/Resources/NOTES';
 
+
 export const fetchNotes = createAsyncThunk(
     'notes/fetchNotes',
     async () => {
@@ -85,6 +86,6 @@ export const { addNote, deleteNote } = notesSlice.actions;
 
 export const selectNotesByResource = (resource) => (state) => {
     return state.notes.notesArray.filter(
-        (note) => note.resource === parseInt(resource.id)
+        (note) => note.resource === resource._id
     );
 };

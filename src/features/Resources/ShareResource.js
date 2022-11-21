@@ -1,4 +1,4 @@
-import { Button, Modal, ModalBody, ModalHeader, Form, Alert } from 'reactstrap';
+import { Button, Modal, ModalBody, ModalHeader, Form } from 'reactstrap';
 import { useState } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 

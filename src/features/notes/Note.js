@@ -1,7 +1,7 @@
 import { formatDate } from '../../utils/formatDate';
 import { deleteNote } from './notesSlice';
 import { useDispatch } from 'react-redux';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 
 const Note = ({ note }) => {
     const { text: noteText, date } = note;
@@ -20,9 +20,9 @@ const Note = ({ note }) => {
               <p>{formatDate(date)}</p>
                 </Col>
            <Col>
-            <p><a role='button'
+            <p><Button
             style={{color:'red'}}
-            onClick={() => dispatch(deleteNote(note))}>Delete</a></p>
+            onClick={() => dispatch(deleteNote(note))}>Delete</Button></p>
             </Col>
             </Row>
         </Container>
